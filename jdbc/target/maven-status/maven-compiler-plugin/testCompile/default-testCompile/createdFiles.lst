@@ -1,0 +1,8 @@
+org/postgis/DatatypesTest.class
+org/postgis/TokenizerTest.class
+org/postgis/ParserTest.class
+org/postgis/AutoRegistrationTest.class
+org/postgis/BoxesTest.class
+org/postgis/ServerTest.class
+org/postgis/EmptyGeometriesTest.class
+org/postgis/VersionPrinter.class

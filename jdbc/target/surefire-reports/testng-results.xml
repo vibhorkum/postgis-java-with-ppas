@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="14" passed="14">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Postgis JDBC Extensions Test Suite" duration-ms="189" started-at="2015-11-03T18:06:18Z" finished-at="2015-11-03T18:06:18Z">
+    <groups>
+    </groups>
+    <test name="Postgis JDBC Tests" duration-ms="189" started-at="2015-11-03T18:06:18Z" finished-at="2015-11-03T18:06:18Z">
+      <class name="org.postgis.TokenizerTest">
+        <test-method status="PASS" signature="testTokenizer()[pri:0, instance:org.postgis.TokenizerTest@328a0152]" name="testTokenizer" duration-ms="0" started-at="2015-11-03T10:06:18Z" finished-at="2015-11-03T10:06:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTokenizer -->
+      </class> <!-- org.postgis.TokenizerTest -->
+      <class name="org.postgis.ParserTest">
+        <test-method status="PASS" signature="initJdbcConnection(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:org.postgis.ParserTest@460c5239]" name="initJdbcConnection" is-config="true" duration-ms="0" started-at="2015-11-03T10:06:18Z" finished-at="2015-11-03T10:06:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testWithDatabase]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jdbcUrl]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[jdbcUsername]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[jdbcPassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initJdbcConnection -->
+        <test-method status="PASS" signature="testParser()[pri:0, instance:org.postgis.ParserTest@460c5239]" name="testParser" duration-ms="124" started-at="2015-11-03T10:06:18Z" finished-at="2015-11-03T10:06:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testParser -->
+        <test-method status="PASS" signature="unallocateDatabaseResources()[pri:0, instance:org.postgis.ParserTest@460c5239]" name="unallocateDatabaseResources" is-config="true" duration-ms="0" started-at="2015-11-03T10:06:18Z" finished-at="2015-11-03T10:06:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unallocateDatabaseResources -->
+      </class> <!-- org.postgis.ParserTest -->
+      <class name="org.postgis.BoxesTest">
+        <test-method status="PASS" signature="initJdbcConnection(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:org.postgis.BoxesTest@52ea401c]" name="initJdbcConnection" is-config="true" duration-ms="0" started-at="2015-11-03T10:06:18Z" finished-at="2015-11-03T10:06:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testWithDatabase]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jdbcUrl]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[jdbcUsername]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[jdbcPassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initJdbcConnection -->
+        <test-method status="PASS" signature="testBoxes()[pri:0, instance:org.postgis.BoxesTest@52ea401c]" name="testBoxes" duration-ms="1" started-at="2015-11-03T10:06:18Z" finished-at="2015-11-03T10:06:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBoxes -->
+      </class> <!-- org.postgis.BoxesTest -->
+      <class name="org.postgis.AutoRegistrationTest">
+        <test-method status="PASS" signature="initJdbcConnection(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:org.postgis.AutoRegistrationTest@35cc031]" name="initJdbcConnection" is-config="true" duration-ms="7" started-at="2015-11-03T10:06:18Z" finished-at="2015-11-03T10:06:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testWithDatabase]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jdbcUrl]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[jdbcUsername]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[jdbcPassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initJdbcConnection -->
+        <test-method status="PASS" signature="testAutoRegistration()[pri:0, instance:org.postgis.AutoRegistrationTest@35cc031]" name="testAutoRegistration" duration-ms="17" started-at="2015-11-03T10:06:18Z" finished-at="2015-11-03T10:06:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAutoRegistration -->
+      </class> <!-- org.postgis.AutoRegistrationTest -->
+      <class name="org.postgis.DatatypesTest">
+        <test-method status="PASS" signature="testLineString()[pri:0, instance:org.postgis.DatatypesTest@111718cb]" name="testLineString" duration-ms="0" started-at="2015-11-03T10:06:18Z" finished-at="2015-11-03T10:06:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLineString -->
+        <test-method status="PASS" signature="testLinearRing()[pri:0, instance:org.postgis.DatatypesTest@111718cb]" name="testLinearRing" duration-ms="0" started-at="2015-11-03T10:06:18Z" finished-at="2015-11-03T10:06:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLinearRing -->
+        <test-method status="PASS" signature="testMultiLineString()[pri:0, instance:org.postgis.DatatypesTest@111718cb]" name="testMultiLineString" duration-ms="6" started-at="2015-11-03T10:06:18Z" finished-at="2015-11-03T10:06:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMultiLineString -->
+        <test-method status="PASS" signature="testMultiPolygon()[pri:0, instance:org.postgis.DatatypesTest@111718cb]" name="testMultiPolygon" duration-ms="1" started-at="2015-11-03T10:06:18Z" finished-at="2015-11-03T10:06:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMultiPolygon -->
+        <test-method status="PASS" signature="testPGgeometry()[pri:0, instance:org.postgis.DatatypesTest@111718cb]" name="testPGgeometry" duration-ms="1" started-at="2015-11-03T10:06:18Z" finished-at="2015-11-03T10:06:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPGgeometry -->
+        <test-method status="PASS" signature="testPolygon()[pri:0, instance:org.postgis.DatatypesTest@111718cb]" name="testPolygon" duration-ms="0" started-at="2015-11-03T10:06:18Z" finished-at="2015-11-03T10:06:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPolygon -->
+        <test-method status="PASS" signature="testPoint()[pri:0, instance:org.postgis.DatatypesTest@111718cb]" name="testPoint" duration-ms="0" started-at="2015-11-03T10:06:18Z" finished-at="2015-11-03T10:06:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPoint -->
+      </class> <!-- org.postgis.DatatypesTest -->
+      <class name="org.postgis.VersionPrinter">
+        <test-method status="PASS" signature="initJdbcConnection(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:org.postgis.VersionPrinter@168f27fc]" name="initJdbcConnection" is-config="true" duration-ms="0" started-at="2015-11-03T10:06:18Z" finished-at="2015-11-03T10:06:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testWithDatabase]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jdbcDriverClassName]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[jdbcUrl]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[jdbcUsername]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[jdbcPassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initJdbcConnection -->
+        <test-method status="PASS" signature="test()[pri:0, instance:org.postgis.VersionPrinter@168f27fc]" name="test" duration-ms="3" started-at="2015-11-03T10:06:18Z" finished-at="2015-11-03T10:06:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="unallocateDatabaseResources()[pri:0, instance:org.postgis.VersionPrinter@168f27fc]" name="unallocateDatabaseResources" is-config="true" duration-ms="0" started-at="2015-11-03T10:06:18Z" finished-at="2015-11-03T10:06:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unallocateDatabaseResources -->
+      </class> <!-- org.postgis.VersionPrinter -->
+      <class name="org.postgis.ServerTest">
+        <test-method status="PASS" signature="initJdbcConnection(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:org.postgis.ServerTest@3e4dd2b0]" name="initJdbcConnection" is-config="true" duration-ms="1" started-at="2015-11-03T10:06:18Z" finished-at="2015-11-03T10:06:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testWithDatabase]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jdbcUrl]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[jdbcUsername]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[jdbcPassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initJdbcConnection -->
+        <test-method status="PASS" signature="testServer()[pri:0, instance:org.postgis.ServerTest@3e4dd2b0]" name="testServer" duration-ms="1" started-at="2015-11-03T10:06:18Z" finished-at="2015-11-03T10:06:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testServer -->
+        <test-method status="PASS" signature="unallocateDatabaseResources()[pri:0, instance:org.postgis.ServerTest@3e4dd2b0]" name="unallocateDatabaseResources" is-config="true" duration-ms="0" started-at="2015-11-03T10:06:18Z" finished-at="2015-11-03T10:06:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unallocateDatabaseResources -->
+      </class> <!-- org.postgis.ServerTest -->
+      <class name="org.postgis.EmptyGeometriesTest">
+        <test-method status="PASS" signature="initJdbcConnection(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:org.postgis.EmptyGeometriesTest@674340c4]" name="initJdbcConnection" is-config="true" duration-ms="0" started-at="2015-11-03T10:06:18Z" finished-at="2015-11-03T10:06:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testWithDatabase]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jdbcUrl]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[jdbcUsername]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[jdbcPassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initJdbcConnection -->
+        <test-method status="PASS" signature="testSqlStatements()[pri:0, instance:org.postgis.EmptyGeometriesTest@674340c4]" name="testSqlStatements" duration-ms="1" started-at="2015-11-03T10:06:18Z" finished-at="2015-11-03T10:06:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSqlStatements -->
+        <test-method status="PASS" signature="unallocateDatabaseResources()[pri:0, instance:org.postgis.EmptyGeometriesTest@674340c4]" name="unallocateDatabaseResources" is-config="true" duration-ms="0" started-at="2015-11-03T10:06:18Z" finished-at="2015-11-03T10:06:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unallocateDatabaseResources -->
+      </class> <!-- org.postgis.EmptyGeometriesTest -->
+    </test> <!-- Postgis JDBC Tests -->
+  </suite> <!-- Postgis JDBC Extensions Test Suite -->
+</testng-results>

@@ -1,0 +1,8 @@
+/home/vibhorkumar/postgis-java/jdbc/src/test/java/org/postgis/VersionPrinter.java
+/home/vibhorkumar/postgis-java/jdbc/src/test/java/org/postgis/BoxesTest.java
+/home/vibhorkumar/postgis-java/jdbc/src/test/java/org/postgis/TokenizerTest.java
+/home/vibhorkumar/postgis-java/jdbc/src/test/java/org/postgis/ParserTest.java
+/home/vibhorkumar/postgis-java/jdbc/src/test/java/org/postgis/DatatypesTest.java
+/home/vibhorkumar/postgis-java/jdbc/src/test/java/org/postgis/ServerTest.java
+/home/vibhorkumar/postgis-java/jdbc/src/test/java/org/postgis/EmptyGeometriesTest.java
+/home/vibhorkumar/postgis-java/jdbc/src/test/java/org/postgis/AutoRegistrationTest.java
